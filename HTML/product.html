@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/grid.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/base.css">
+    <link rel="stylesheet" href="/Fonts/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="/Fonts/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="/CSS/product.css">
+    <link rel="stylesheet" href="/CSS/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Logo and nav menu tablet mobile -->
+        <div class="grid backgroundheader">
+            <div class="grid wide header__logo-nav">
+                <div class="col l-12 m-6 c-6">
+                    <div class="logo">
+                        <p class="header__logo-item">
+                            DANIEL WALLINGTON
+                        </p>
+                    </div>
+                </div>
+                <!-- Submenu -->
+                <div class="col l-12 m-6 c-6">
+                    <div class="header_notpc-nav">
+                        <ul class="header_nav-list">
+                            <li><a href="" class="header__nav-link"><i class="far fa-heart"></i></a></li>
+                            <li><a href="/HTML/login.html" class="header__nav-link"><i class="fa-solid fa-right-to-bracket"></i></a></li>
+                            <!-- Input check sidebar -->
+                            <input type="checkbox" hidden id="check_sidebar" class="header__input">
+                            <label for="check_sidebar" class="header__nav-link"><i class="fa-solid fa-bars"></i></label>
+                            <!-- Sidebar -->
+                            <label for="check_sidebar" class="ovelay"></label>
+                            <label for="check_sidebar" class="header__sidebar">
+                                <ul class="header__sidebar-list">
+                                    <li class="header__sidebar-name"> SIDEBAR <label for="check_sidebar" class="header__sidebar-exit"><i class="fa-solid fa-xmark"></i></label> </li>
+                                    <li class="header__sidebar-item"><a href="/HTML/product.html" class="header__sidebar-link">Tất cả đồng hồ</a></li>
+                                    <li class="header__sidebar-item"><a href="" class="header__sidebar-link"> Đồng hồ thông minh </a></li>
+                                    <li class="header__sidebar-item"><a href="" class="header__sidebar-link"> Trang sức</a></li>
+                                    <li class="header__sidebar-item"><a href="" class="header__sidebar-link">Set quà tặng </a></li>
+                                    <li class="header__sidebar-item"><a href="" class="header__sidebar-link">Kính râm </a></li>
+                                    <li class="header__sidebar-item"><a href="" class="header__sidebar-link"> Bộ sưu tập </a></li>
+                                    <li class="header__sidebar-item"><a href="" class="header__sidebar-link">Shop Instagram</a></li>
+                                    <li class="header__sidebar-item"><a href="" class="header__sidebar-link"> Đăng nhập </a></li>
+                                </ul>
+                            </label>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Menu of pc -->
+        <div class="grid line-list">
+            <!-- likelist -->
+            <div class="likelist-and-cart">
+                <a href="" class="likelist-and-cart-item"><i class="far fa-heart"></i></a>
+                <a href="/HTML/login.html" class="likelist-and-cart-item"><i class="fa-solid fa-right-to-bracket"></i></a>
+            </div>
+            <!-- Menu -->
+            <div class="grid wide">
+                <div class="col l-12 m-0 c-0">
+                    <nav class="header__nav-pc">
+                        <ul class="header__nav-pc-list">
+                            <li class="header__nav-pc-item">
+                                <a href="" class="header__nav-pc-link"> ĐỒNG HỒ 
+                                    <!-- Submenu -->
+                                    <nav class="nav__submenu">  
+                                        <ul class="nav__submenu-list">
+                                            <li class="nav__submenu-item">
+                                                <a href="/HTML/product.html" class="nav__submenu-link"> Tất cả đồng hồ </a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Đồng hồ Nữ</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Đồng hồ Nam</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Đồng hồ Vàng Hồng</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Đồng hồ Bạc</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Đồng hồ Vàng</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Color Dials</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Đồng hồ Mother of Pearl</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Dây đồng hồ</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </a>
+                            </li>
+                            <li class="header__nav-pc-item">
+                                <a href="" class="header__nav-pc-link"> DÒNG SẢN PHẨM SMART WATCH </a>
+                            </li>
+                            <li class="header__nav-pc-item">
+                                <a href="" class="header__nav-pc-link"> TRANG SỨC 
+                                    <!-- Submenu -->
+                                    <nav class="nav__submenu">  
+                                        <ul class="nav__submenu-list">
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link"> Tất cả trang sức </a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Dây chuyền</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link"> Lắc tay</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Nhẫn</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Khuyên tai</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </a>
+                            </li>
+                            <li class="header__nav-pc-item">
+                                <a href="" class="header__nav-pc-link"> SET QUÀ TẶNG 
+                                    <!-- Submenu -->
+                                    <nav class="nav__submenu">  
+                                        <ul class="nav__submenu-list">
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link"> Tất cả quà tặng </a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Quà tặng cô ấy</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link"> Quà tặng anh ấy</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link"> Quà tặng cặp đôi</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </a>
+                            </li>
+                            <li class="header__nav-pc-item">
+                                <a href="" class="header__nav-pc-link"> KÍNH RÂM </a>
+                            </li>
+                            <li class="header__nav-pc-item">
+                                <a href="" class="header__nav-pc-link"> BỘ SƯU TẬP 
+                                    <!-- Submenu -->
+                                    <nav class="nav__submenu">  
+                                        <ul class="nav__submenu-list">
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link"> Bộ sưu tập </a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link"> Quadro Collection</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Petitle Collection</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Classic Collection</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Smartwatch Cases</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Iconic Collection</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Iconic Link Collection</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Elan Collection</a>
+                                            </li>
+                                            <li class="nav__submenu-item">
+                                                <a href="" class="nav__submenu-link">Aspiration Collection</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </a>
+                            </li>
+                            <li class="header__nav-pc-item">
+                                <a href="" class="header__nav-pc-link">SHOP INSTAGRAM </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner -->
+        <div class="grid">
+           <div class="banner__container">
+               <img src="https://cdn.shopdongho.com/2019/05/banner-daniel-wellington-pc-04-scaled.jpg" alt="" class="banner__container-img">
+                <div class="banner-container-content">
+                    <h2 class="banner__content-name"> QUARO </h2>
+                    <h5 class="banner__content-stu"> STUDIO</h5>
+                    <p class="banner__content-pre"> BỘ SƯU TẬP ĐỒNG HỒ SQUARE COLLECTION LẤY CẢM HỨNG TỪ THẬP NIÊN 70</p>
+                    <button class="bannner_content-but"> KHÁM PHÁ </button>
+                </div>
+            </div>
+        </div>
+        <!-- Button -->
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-12 m-12 c-12">
+                    <div class="filter__sort">
+                        <!-- Input -->
+                        <input type="checkbox" hidden id="filter__sort-active-sidebar">
+                        <!-- Overlay -->
+                        <div class="ovelayx"></div>
+                        <label for="filter__sort-active-sidebar" class="filter__sort-item">
+                            FILTER <i class="fas fa-sliders-h"></i>
+                        </label>
+                         <!-- Sidebar -->
+                        <label for="filter__sort-active-sidebar" class="filter__sort-sidebar">
+                            <p class="filter__sort-name">
+                                <h4 class="filter__sort-tag"> FILTER </h4>
+                                <label for="filter__sort-active-sidebar" class="filter_sort-exit"><i class="fa-solid fa-xmark"></i></label>
+                            </p>
+                           
+                            <ul class="filter__sort-sidebar-list">
+                                <li class="filter__sort-sidebar-item">
+                                    <p class="filter__sort-sidebar-link">
+                                        LOẠI ĐỒNG HỒ 
+                                    </p>
+                                    <p class="filter__sort-sidebar-choices">
+                                       <p class="filter__sort-sidebar-choices-list">
+                                            <input type="checkbox" class="filter__choices-item"> Đồng hồ Nam
+                                       </p>
+                                       <p class="filter__sort-sidebar-choices-list">
+                                        <input type="checkbox" class="filter__choices-item"> Đồng hồ Nữ
+                                   </p>
+                                   <p class="filter__sort-sidebar-choices-list">
+                                    <input type="checkbox" class="filter__choices-item"> Đồng hồ Unisex
+                               </p>
+                                    </p>
+                                </li>
+                                <!-- Size -->
+                                <li class="filter__sort-sidebar-item">
+                                    <p class="filter__sort-sidebar-link">
+                                       KÍCH THƯỚC
+                                    </p>
+                                    <p class="filter__sort-sidebar-choices">
+                                       <p class="filter__sort-sidebar-choices-list">
+                                            <input type="checkbox" class="filter__choices-item"> 20X26
+                                       </p>
+                                       <p class="filter__sort-sidebar-choices-list">
+                                        <input type="checkbox" class="filter__choices-item"> 22X22
+                                   </p>
+                                   <p class="filter__sort-sidebar-choices-list">
+                                         <input type="checkbox" class="filter__choices-item"> 24
+                                    </p>
+                                    <p class="filter__sort-sidebar-choices-list">
+                                        <input type="checkbox" class="filter__choices-item"> 29X36.5 MM 
+                                   </p>
+                                   <p class="filter__sort-sidebar-choices-list">
+                                    <input type="checkbox" class="filter__choices-item"> 28
+                               </p>
+                                </p>
+                                </li>
+                                <!-- Color -->
+                                <li class="filter__sort-sidebar-item">
+                                    <p class="filter__sort-sidebar-link">
+                                       MÀU SẮC   
+                                    </p>
+                                    <p class="filter__sort-sidebar-choices">
+                                       <p class="filter__sort-sidebar-choices-list">
+                                            <input type="checkbox" class="filter__choices-item"> BLACK 
+                                       </p>
+                                       <p class="filter__sort-sidebar-choices-list">
+                                        <input type="checkbox" class="filter__choices-item">GOLD
+                                   </p>
+                                   <p class="filter__sort-sidebar-choices-list">
+                                        <input type="checkbox" class="filter__choices-item">ROSE GOLD 
+                                    </p>
+                                    <p class="filter__sort-sidebar-choices-list">
+                                        <input type="checkbox" class="filter__choices-item">SILVER
+                                    </p>
+                                </p>
+                                </li>
+                                <!-- Collection -->
+                                <li class="filter__sort-sidebar-item">
+                                    <p class="filter__sort-sidebar-link">
+                                        BỘ SƯU TẬP 
+                                    </p>
+                                    <p class="filter__sort-sidebar-choices">
+                                       <p class="filter__sort-sidebar-choices-list">
+                                            <input type="checkbox" class="filter__choices-item"> CLASSIC 
+                                       </p>
+                                       <p class="filter__sort-sidebar-choices-list">
+                                        <input type="checkbox" class="filter__choices-item"> ICONIC
+                                   </p>
+                                   <p class="filter__sort-sidebar-choices-list">
+                                    <input type="checkbox" class="filter__choices-item"> PETITE 
+                                    </p>
+                                    <p class="filter__sort-sidebar-choices-list">
+                                        <input type="checkbox" class="filter__choices-item"> QUADRO
+                                   </p>
+                                    </p>
+                                </li>
+                            </ul>
+                        </label>
+                        <button class="filter__sort-item">
+                            SORT BY <i class="fas fa-sort-alpha-down"></i>
+                        </button>
+                    </div>
+                
+                </div>    
+            </div>
+        </div>
+        <!-- Sản phẩm -->
+         <!-- List -->
+         <div class="grid wide">
+            <div class="row">
+                <!-- item -->
+                <div class="col l-3 m-3 c-6">
+                    <div class="product__container">
+                        <img class="product__img" src="https://www.danielwellington.com/product-images/DW00100510_Quadro_20-2UHXOthx.png?ecom2=true&format=jpg&canvas=1:1&width=600&quality=80&bg-color=FFFFFF">
+                        <i class="product__icon-heart far fa-heart"></i>
+                        <div class="product__content">
+                            <a href="/HTML/chitiet1.html" class="product__content-name">QUADRO PRESSED MELROSE</a>
+                            <div class="product__content-color">
+                                <ul class="product__content-color-list">
+                                    <li class="product__content-color-item"><button class="product__content-color-link gold"></button>
+                                </ul>
+                            </div>
+                            <p class="product__content-name-color">Rose Gold</p>
+                            <p class="product___content-price">5,670,000 đ</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- item -->
+                <div class="col l-3 m-3 c-6">
+                    <div class="product__container">
+                        <img class="product__img" src="https://www.danielwellington.com/product-images/dw00400166_elan_unit-ZPwNMg9v.png?ecom2=true&format=jpg&canvas=1:1&width=600&quality=80&bg-color=FFFFFF">
+                        <i class="product__icon-heart far fa-heart"></i>
+                        <div class="product__content">
+                            <a href="/HTML/chitiet1.html" class="product__content-name">ELAN UNITY NECKLACE</a>
+                            <div class="product__content-color">
+                                <ul class="product__content-color-list">
+                                    <li class="product__content-color-item"><button class="product__content-color-link gold"></button>
+                                    <li class="product__content-color-item"><button class="product__content-color-link silver"></button>
+                                    <li class="product__content-color-item"><button class="product__content-color-link golden"></button>
+                                </ul>
+                            </div>
+                            <p class="product__content-name-color">Rose Gold</p>
+                            <p class="product___content-price">2,260,000 đ</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- item -->
+                 <div class="col l-3 m-3 c-6">
+                    <div class="product__container">
+                        <img class="product__img" src="https://www.danielwellington.com/product-images/dw00400003_classic_c-ovlGg6wn.png?ecom2=true&format=jpg&canvas=1:1&width=600&quality=80&bg-color=FFFFFF">
+                        <i class="product__icon-heart far fa-heart"></i>
+                        <div class="product__content">
+                            <a href="/HTML/chitiet1.html" class="product__content-name">CLASSIC BRACELET</a>
+                            <div class="product__content-color">
+                                <ul class="product__content-color-list">
+                                    <li class="product__content-color-item"><button class="product__content-color-link gold"></button>
+                                    <li class="product__content-color-item"><button class="product__content-color-link silver"></button>
+                                    <li class="product__content-color-item"><button class="product__content-color-link golden"></button>
+                                </ul>
+                            </div>
+                            <p class="product__content-name-color">Rose Gold</p>
+                            <p class="product___content-price">1,570,000 đ</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- item -->
+                <div class="col l-3 m-3 c-6">
+                    <div class="product__container">
+                        <img class="product__img" src="https://www.danielwellington.com/product-images/DW00100513_Petite_28-mToZ1Y7r.png?ecom2=true&format=jpg&canvas=1:1&width=600&quality=80&bg-color=FFFFFF">
+                        <i class="product__icon-heart far fa-heart"></i>
+                        <div class="product__content">
+                            <a href="/HTML/chitiet1.html" class="product__content-name">PETITE MELROSE PEARL</a>
+                            <div class="product__content-color">
+                                <ul class="product__content-color-list">
+                                    <li class="product__content-color-item"><button class="product__content-color-link gold"></button>
+                                </ul>
+                            </div>
+                            <p class="product__content-name-color">Rose Gold</p>
+                            <p class="product___content-price">4,990,000 đ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- List -->
+        <div class="grid wide">
+            <div class="row">
+                <!-- item -->
+                <div class="col l-3 m-3 c-6">
+                    <div class="product__container">
+                        <img class="product__img-full" src="https://images.unsplash.com/photo-1506193095-80bc749473f2?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435">
+                      
+                    </div>
+                </div>
+                 <!-- item -->
+                <div class="col l-3 m-3 c-6">
+                    <div class="product__container">
+                        <img class="product__img" src="https://www.danielwellington.com/product-images/DW00100517_Quadro_St-TgstMhHB.png?ecom2=true&format=jpg&canvas=1:1&width=600&quality=80&bg-color=FFFFFF">
+                        <i class="product__icon-heart far fa-heart"></i>
+                        <div class="product__content">
+                            <a href="/HTML/chitiet1.html" class="product__content-name">QUADRO STUDIO</a>
+                            <div class="product__content-color">
+                                <ul class="product__content-color-list">
+                                    <li class="product__content-color-item"><button class="product__content-color-link gold"></button>
+                                </ul>
+                            </div>
+                            <p class="product__content-name-color">Rose Gold</p>
+                            <p class="product___content-price">5,670,000 đ</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- item -->
+                 <div class="col l-3 m-3 c-6">
+                    <div class="product__container">
+                        <img class="product__img" src="https://www.danielwellington.com/product-images/DW00100522_Quadro_St-dwZnuKmI.png?ecom2=true&format=jpg&canvas=1:1&width=600&quality=80&bg-color=FFFFFF">
+                        <i class="product__icon-heart far fa-heart"></i>
+                        <div class="product__content">
+                            <a href="/HTML/chitiet1.html" class="product__content-name">QUADRO PRESSED MELROSE</a>
+                            <div class="product__content-color">
+                                <ul class="product__content-color-list">
+                                    <li class="product__content-color-item"><button class="product__content-color-link silver"></button>
+                                </ul>
+                            </div>
+                            <p class="product__content-name-color">Silver</p>
+                            <p class="product___content-price">5,670,000 đ</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- item -->
+                <div class="col l-3 m-3 c-6">
+                    <div class="product__container">
+                        <img class="product__img" src="https://www.danielwellington.com/product-images/DW00100520_Quadro_St-IxsXWiBN.png?ecom2=true&format=jpg&canvas=1:1&width=600&quality=80&bg-color=FFFFFF">
+                        <i class="product__icon-heart far fa-heart"></i>
+                        <div class="product__content">
+                            <a href="/HTML/chitiet1.html" class="product__content-name">QUADRO PRESSED MELROSE</a>
+                            <div class="product__content-color">
+                                <ul class="product__content-color-list">
+                                    <li class="product__content-color-item"><button class="product__content-color-link gold"></button>
+                                </ul>
+                            </div>
+                            <p class="product__content-name-color">Rose Gold</p>
+                            <p class="product___content-price">5,670,000 đ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!-- List -->
+ <div class="grid wide">
+    <div class="row">
+         <!-- item -->
+        <div class="col l-3 m-3 c-6">
+            <div class="product__container">
+                <img class="product__img" src="https://www.danielwellington.com/product-images/DW01200001_Smartwatc-BYqbd_2s.png?ecom2=true&format=jpg&canvas=1:1&width=600&quality=80&bg-color=FFFFFF">
+                <i class="product__icon-heart far fa-heart"></i>
+                <div class="product__content">
+                    <a href="/HTML/chitiet1.html" class="product__content-name">SWITCH ROSE GOLD</a>
+                    <div class="product__content-color">
+                        <ul class="product__content-color-list">
+                            <li class="product__content-color-item"><button class="product__content-color-link gold"></button>
+                        </ul>
+                    </div>
+                    <p class="product__content-name-color">Rose Gold</p>
+                    <p class="product___content-price">6,360,000 đ</p>
+                </div>
+            </div>
+        </div>
+         <!-- item -->
+         <div class="col l-3 m-3 c-6">
+            <div class="product__container">
+                <img class="product__img" src="https://www.danielwellington.com/product-images/DW01200005_Smartwatc-vINqo2Ia.png?ecom2=true&format=jpg&canvas=1:1&width=600&quality=80&bg-color=FFFFFF">
+                <i class="product__icon-heart far fa-heart"></i>
+                <div class="product__content">
+                    <a href="/HTML/chitiet1.html" class="product__content-name">SWITCH SILVER </a>
+                    <div class="product__content-color">
+                        <ul class="product__content-color-list">
+                            <li class="product__content-color-item"><button class="product__content-color-link silver"></button>
+                        </ul>
+                    </div>
+                    <p class="product__content-name-color">Silver</p>
+                    <p class="product___content-price">6,360,000 đ</p>
+                </div>
+            </div>
+        </div>
+         <!-- item -->
+        <div class="col l-3 m-3 c-6">
+            <div class="product__container">
+                <img class="product__img" src="https://www.danielwellington.com/product-images/DW01200003_Smartwatc--goUT0ca.png?ecom2=true&format=jpg&canvas=1:1&width=600&quality=80&bg-color=FFFFFF">
+                <i class="product__icon-heart far fa-heart"></i>
+                <div class="product__content">
+                    <a href="/HTML/chitiet1.html" class="product__content-name">SWITCH BLACK</a>
+                    <div class="product__content-color">
+                        <ul class="product__content-color-list">
+                            <li class="product__content-color-item"><button class="product__content-color-link black"></button>
+                        </ul>
+                    </div>
+                    <p class="product__content-name-color">Black</p>
+                    <p class="product___content-price">6,360,000 đ</p>
+                </div>
+            </div>
+        </div>
+         <!-- item -->
+    <div class="col l-3 m-3 c-6">
+        <div class="product__container">
+            <img class="product__img-full" src="https://media.gq.com/photos/5bbe7ca5803ecb2e9ea1a700/master/w_1600%2Cc_limit/EdWatches-5.jpg">
+          
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+            <!-- Contact -->
+            <div class="grid background-contact">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12">
+                            <div class="contact__box">
+                                <p class="contact__box-name"> KHUYẾN MẠI 10% VỚI ORDER ĐẦU TIÊN</p>
+                                <p class="contact__box-pre"> Đăng ký thông báo để trở thành người đầu tiên nhận được những tin tức mới nhất của hãng và cả những chương trình ưu đãi độc quyền hội viên. Đặc biệt với đơn hàng đầu tiên bạn sẽ nhận được khuyến mại 10% trên sản phẩm bất kỳ.  </p>
+                                <legend class="contact__box-mail"> ĐĂNG KÍ ĐỊA CHỈ EMAIL </legend>
+                                <P class="contact__box-signin-input"><input type="text"><button> ĐĂNG KÍ </button></P>
+                                <p class="contact__box-rule"> Click <a href=""> vào đây </a> để đọc thông tin về cách Daniel Wellington xử lý dữ liệu cá nhân của bạn.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-12 m-0 c-0">
+                            <div class="contact_mxh-box">
+                                <ul class="contact-mxh-list">
+                                    <li class="contact-mxh-item"><i class="fa-brands fa-instagram"></i></li>
+                                    <li class="contact-mxh-item"><i class="fa-brands fa-instagram"></i></li>
+                                    <li class="contact-mxh-item"><i class="fa-brands fa-instagram"></i></li>
+                                    <li class="contact-mxh-item"><i class="fa-brands fa-instagram"></i></li>
+                                    <li class="contact-mxh-item"><i class="fa-brands fa-instagram"></i></li>
+                                    <li class="contact-mxh-item"><i class="fa-brands fa-instagram"></i></li>
+                                    <li class="contact-mxh-item"><i class="fa-brands fa-instagram"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        <!-- Footer -->
+        <div class="grid wide footer__on-pc-tablet">
+            <footer class="row footer__container">
+                <div class="col l-3 m-3 c-12">
+                    <div class="footer__container-item">
+                        <ul class="footer__container-list">
+                            <li class="footer__container-list-item footer__title"> SHOP </label>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> Shop Instargram </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> Tất cả đồng hồ </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> Tất cả phụ kiện </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> Dây đồng hồ </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> Cửa Hàng / Stores </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> Mẫu Truyền Cảm Hứng </a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12">
+                    <div class="footer__container-item">
+                        <ul class="footer__container-list">
+                            <li class="footer__container-list-item footer__title"> HỖ TRỢ </label>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> Trung tâm trợ giúp </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> Liên hệ chúng tôi </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> Thông tin về size </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link">  Cách thay dây đồng hồ</a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link">  Cách đo size nhẫn</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12">
+                    <div class="footer__container-item">
+                        <ul class="footer__container-list">
+                            <li class="footer__container-list-item footer__title"> Thông tin </label>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link">  Điều khoản bảo mật </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link">  Điều khoản khác  </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link">  Chính sách hoàn trả </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link">  Warranties</a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link">  Owners Guide </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link">  Cài đặt cookie</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12">
+                    <div class="footer__container-item">
+                        <ul class="footer__container-list">
+                            <li class="footer__container-list-item footer__title"> VỀ CHÚNG TÔI </label>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> Câu chuyện  </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> #DWMOMENTS  </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> Bảo đảm chính hãng </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> Thông tin việc làm </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> Khả năng truy cập  </a> </li>
+                            <li class="footer__container-list-item"><a href="" class="footer__container-link"> Về phát triển bền vững </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <div class="row footer_last">
+                <div class="col l-4 m-4 c-12">
+                    <img src="http://mastertime.vn/upload/news/logo-daniel-wellington.png" alt="" class="footer__logo">
+                </div>
+                <div class="col l-4 m-4 c-12">
+                    <p class="footer__name-company"> DANIEL WALLINGTON</p>
+                </div>
+                <div class="col l-4 m-4 c-12">
+                   <p class="footer__copyright">© 2022 Daniel Wellington AB</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer ON PHone-->
+        <div class="grid wide footer-on-phone">
+            <footer class="row footer__container">
+                <div class="col l-3 m-3 c-12">
+                    <div class="footer__container-item">
+                        <ul class="footer__container-list">
+                            <input type="checkbox" hidden id="footer__list1">
+                            <label for="footer__list1" class="footer__title"> SHOP <i class="fa-solid fa-caret-down"></i></label>
+                            <label for="footer__list1" class="footer__container-list-item"><a href="" class="footer__container-link"> Shop Instagram </a> </label>
+                            <label for="footer__list1" class="footer__container-list-item"><a href="" class="footer__container-link"> Tất cả đồng hồ</a> </label>
+                            <label for="footer__list1" class="footer__container-list-item"><a href="" class="footer__container-link"> Tất cả phụ kiện  </a> </label>
+                            <label for="footer__list1" class="footer__container-list-item"><a href="" class="footer__container-link"> Dây đồng hồ </a> </label>
+                            <label for="footer__list1" class="footer__container-list-item"><a href="" class="footer__container-link"> Cửa Hàng / Stores </a> </label>
+                            <label for="footer__list1" class="footer__container-list-item"><a href="" class="footer__container-link"> Mẫu Truyền Cảm Hứng </a> </label>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12">
+                    <div class="footer__container-item">
+                        <ul class="footer__container-list">
+                            <input type="checkbox" hidden id="footer__list2">
+                            <label for="footer__list2" class="footer__title"> HỖ TRỢ <i class="fa-solid fa-caret-down"></i> </label>
+                            <label for="footer__list2" class="footer__container-list-item"><a href="" class="footer__container-link"> Trung tâm trợ giúp </a> </label>
+                            <label for="footer__list2" class="footer__container-list-item"><a href="" class="footer__container-link">  Liên hệ chúng tôi </a> </label>
+                            <label for="footer__list2" class="footer__container-list-item"><a href="" class="footer__container-link">Thông tin về size </a> </label>
+                            <label for="footer__list2" class="footer__container-list-item"><a href="" class="footer__container-link"> Cách thay dây đồng hồ </a> </label>
+                            <label for="footer__list2" class="footer__container-list-item"><a href="" class="footer__container-link">  Cách đo size nhẫn </a> </label>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12">
+                    <div class="footer__container-item">
+                        <ul class="footer__container-list">
+                            <input type="checkbox" hidden id="footer__list3">
+                            <label for="footer__list3" class="footer__title"> THÔNG TIN <i class="fa-solid fa-caret-down"></i> </label>
+                            <label for="footer__list3" class="footer__container-list-item"><a href="" class="footer__container-link">  Điều khoản bảo mật </a> </label>
+                            <label for="footer__list3" class="footer__container-list-item"><a href="" class="footer__container-link">Điều khoản khác </a> </label>
+                            <label for="footer__list3" class="footer__container-list-item"><a href="" class="footer__container-link"> Chính sách hoàn trả  </a> </label>
+                            <label for="footer__list3" class="footer__container-list-item"><a href="" class="footer__container-link"> Warranties </a> </label>
+                            <label for="footer__list3" class="footer__container-list-item"><a href="" class="footer__container-link">  Owners Guide </a> </label>
+                            <label for="footer__list3" class="footer__container-list-item"><a href="" class="footer__container-link"> Cài đặt cookie </a> </label>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12">
+                    <div class="footer__container-item">
+                        <ul class="footer__container-list">
+                            <input type="checkbox" hidden id="footer__list4">
+                            <label for="footer__list4" class="footer__title"> VỀ CHÚNG TÔI <i class="fa-solid fa-caret-down"></i> </label>
+                            <label for="footer__list4" class="footer__container-list-item"><a href="" class="footer__container-link"> Câu chuyện </a> </label>
+                            <label for="footer__list4" class="footer__container-list-item"><a href="" class="footer__container-link"> #DWMOMENTS </a> </label>
+                            <label for="footer__list4" class="footer__container-list-item"><a href="" class="footer__container-link"> Bảo đảm chính hãng </a> </label>
+                            <label for="footer__list4" class="footer__container-list-item"><a href="" class="footer__container-link"> Thông tin việc làm </a> </label>
+                            <label for="footer__list4" class="footer__container-list-item"><a href="" class="footer__container-link"> Khả năng truy cập </a> </label>
+                            <label for="footer__list4" class="footer__container-list-item"><a href="" class="footer__container-link"> Về phát triển bền vững </a> </label>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <div class="row footer_last">
+                <div class="col l-4 m-4 c-12">
+                    <img src="http://mastertime.vn/upload/news/logo-daniel-wellington.png" alt="" class="footer__logo">
+                </div>
+                <div class="col l-4 m-4 c-12">
+                    <p class="footer__name-company"> DANIEL WALLINGTON</p>
+                </div>
+                <div class="col l-4 m-4 c-12">
+                   <p class="footer__copyright">© 2022 Daniel Wellington AB</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

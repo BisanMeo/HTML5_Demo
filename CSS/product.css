@@ -1,0 +1,117 @@
+/* Sort */
+.filter__sort{
+    margin: 10px;
+    display: flex;
+    width: 100%;
+}
+.filter__sort-item{
+  font-size: 14px;
+    display: block;
+    width: 15%;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    transition: all ease-in-out 0.2s;
+    text-align: center;
+}
+.filter__sort-item:hover{
+  background-color: #273751;
+  color: white;
+}
+/* SIDEBSR */
+.filter__sort-sidebar{
+  padding: 0 16px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  width: 300px;
+  background-color: white;
+  transform: translateX(100%);
+  transition: all ease-in-out 0.4s;
+}
+.ovelayx{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 5;
+  display: none;
+}
+#filter__sort-active-sidebar:checked ~ .filter__sort-sidebar{
+    transform: translateX(0%);
+}
+#filter__sort-active-sidebar:checked ~ .ovelayx{
+  display: block;
+}
+.filter_sort-exit{
+    position: fixed;
+    top: 0;
+    right: 10px;
+   font-size: 35px;
+}
+.filter__sort-sidebar-item{
+  display: block;
+  width: 100%;
+  min-height: 60px;
+ line-height: 30px;
+  list-style: none;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.filter__sort-sidebar-input-type:checked ~ .filter__sort-sidebar-type{
+  opacity: 1;
+  transform: translateY(0%);
+}
+.filter__sort-sidebar-type{
+  opacity: 0;
+  transform: translateY(-50%);
+  transition: all ease-in-out 0.3s;
+  animation: fade linear 0,3s;
+}
+@keyframes fade {
+    from{
+      opacity: 0;
+    }to{
+      opacity: 1;
+    }
+}
+.filter__sort-icon{
+  height: 40px;
+  line-height: 40px;
+}
+.filter__sort-tag{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.sidebar-item{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.filter__sort-sidebar-list{
+    display: block;
+}
+.filter__sort-sidebar-link{
+  font-size: 17px;
+  color: black;
+}
+.filter__choices-item{
+  width: 20px;
+  height: 20px;
+ 
+}
+.filter__sort-sidebar-choices-list{
+  height: 30px;
+  line-height: 30px;
+}

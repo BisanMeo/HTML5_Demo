@@ -1,0 +1,144 @@
+.box{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.container{
+    display: block;
+}
+.container__logo{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+.container__logo-item{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+.container__intro{
+    display: block;
+    margin: 36px 0 20px 0;
+}
+.container__intro-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: gray;
+}
+.container__intro-name{
+    color: black;
+}
+.container__itro-pre{
+    color: gray;
+    font-size: 17px;
+    font-weight: 500;
+}
+.container__form{
+    display: block;
+    width: 80%;
+    height: 120px;
+    border: 2px solid rgb(168, 168, 168);
+    border-radius: 5px;
+}
+.sign-up{
+    height: 240px;
+}
+.container__form-list{
+    display: block;
+    height: 60px;
+    border-bottom: 2px solid  rgb(168, 168, 168) ;
+}
+.container__form-list:last-child{
+    border-bottom: none;
+}
+legend{
+    padding-left: 20px;
+    color: gray;
+}
+.input-form{
+    display: block;
+    width: 100%;
+    height: 60%;
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.input-form:focus{
+    outline: none;
+}
+.container-rem{
+    margin: 16px 0;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.container_rem-item{
+    color: gray;
+}
+.container__forgot-item{
+    color: black;
+    text-decoration: none;
+}
+.container__forgot-item:hover{
+    color: red;
+}
+.container__but{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.container__but-signin{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.container__but-signin:hover{
+    background-color: black;
+    color: white;
+}
+.container__but-signin>a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+.container__but-signin>a:hover{
+    color: white;
+}
+.container__erorr{
+    display: block;
+    height: 50px;
+}
+.error{
+    font-weight: 700;
+    font-size: 16px;
+    color: red;
+    font-style: italic;
+}
+.container__p-content{
+    font-size: 17px;
+    color: gray;
+}
+.container__p-content-link{
+    color: black;
+    text-decoration: none;
+}
+.container__p-content-link:hover{
+    color: red;
+}
+.img__box{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.img__box-item{
+    display: block;
+    width: 100%;
+    height: 100%;
+  
+}

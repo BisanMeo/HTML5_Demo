@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/grid.css">
+    <link rel="stylesheet" href="/CSS/base.css">
+    <link rel="stylesheet" href="/Fonts/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="/Fonts/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="/CSS/login.css">
+    <link rel="stylesheet" href="/CSS/responsive.css">
+    <script src="/JS/sign-in.js"></script>
+</head>
+<body>
+    <div class="grid wide">
+        <div class="row">
+           <div class="box">
+                <!-- Nội dung -->
+                <div class="col l-6 m-12 m-12">
+                    <div class="container">
+                        <div class="container__logo">
+                            <p class="container__logo-item">
+                                DANIEL WALLINGTON
+                            </p>
+                        </div>
+                        <div class="container__intro">
+                            <p class="container__intro-title"> Chúng tôi là <span class="container__intro-name"> DANIEL WALLINGTON</span></p>
+                            <p class="container__itro-pre"> Chào mừng trở lại. Vui lòng đăng nhập tài khoản của bạn </p>
+                        </div>
+                        <div class="container__form">
+                            <form name="sign" action="">
+                                <div class="container__form-list">
+                                    <legend> Email Address </legend>
+                                    <input class="input-form" type="text" name="email"> 
+                                </div>
+                                <div  class="container__form-list">
+                                    <legend> Password </legend>
+                                    <input   class="input-form" type="text" name="pass"> 
+                                </div>
+                            </form>
+                        </div>
+                        <div class="container-rem">
+                            <div class="container_rem-list">
+                                <p class="container__rem-tit"></p>
+                                    <input type="checkbox" class="container_rem-item"> Remember me 
+                                </p>
+                            </div>
+                            <div class="container__rem-forgot">
+                                <p class="container__forgot-list"><a href="" class="container__forgot-item">Quên mật khẩu?</a></p>
+                            </div>
+                        </div>
+                        <div class="container__but">
+                            <button class="container__but-signin" onclick="checkForm()"> Đăng nhập </button>
+                            <button class="container__but-signin"><a href="/HTML/sign-up.html"> Đăng kí</a> </button>
+                        </div>
+                        <div class="container__erorr">
+                            <div class="error" id="result"> </div>
+                        </div>
+                        <div class="container__p">
+                            <p class="container__p-content"> Với việc đăng nhập bạn đã đồng ý <a class="container__p-content-link" href=""> chính sách sử dụng và bảo mật của Daniel Wallington.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Img -->
+                <div class="col l-6 m-12 m-12">
+                    <div class="img__box">
+                        <img src="https://images.unsplash.com/photo-1557531365-e8b22d93dbd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="" class="img__box-item">
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
